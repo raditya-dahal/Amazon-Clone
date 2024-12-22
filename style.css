@@ -157,3 +157,18 @@ span {
     background-size: cover;
     height: 600px;
  }
+
+ .hero-message{
+  background-color: white;
+  height: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  a{
+    color: #007185
+  }
+ }
