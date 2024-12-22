@@ -110,65 +110,134 @@ span {
 /* Box 5 */
 
 .nav-cart i {
-    font-size: 30px;
+  font-size: 30px;
 }
 .nav-cart {
-    font-size: 0.85rem;
-    font-weight: 700;
+  font-size: 0.85rem;
+  font-weight: 700;
 }
-
 
 /** Panel **/
 
-.panel{
-    height: 40px;
-    background-color:  #222f3d;
-    display: flex;
-    color: white;
-    align-items: center;
-    justify-content: space-evenly;
+.panel {
+  height: 40px;
+  background-color: #222f3d;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
-.panel-all{
-    width: 45px;
-    padding: 9px;
+.panel-all {
+  width: 45px;
+  padding: 9px;
 }
 
 .panel-opts p {
-    display: inline;
-    margin:10px ;
+  display: inline;
+  margin: 10px;
 }
- .panel-opts {
-    width: 85%;
-    font-size: 0.85rem;
- }
+.panel-opts {
+  width: 85%;
+  font-size: 0.85rem;
+}
 
- .panel-deals{
-    font-size: 0.9rem;
-    padding-right: 9px;
-    font-weight:700;
- }
+.panel-deals {
+  font-size: 0.9rem;
+  padding-right: 9px;
+  font-weight: 700;
+}
 
+/* Hero Section */
 
- /* Hero Section */
+.hero-section {
+  background-image: url(hero_image.jpg);
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
 
- .hero-section{
-    background-image: url(hero_image.jpg);
-    background-size: cover;
-    height: 600px;
- }
-
- .hero-message{
+.hero-message {
   background-color: white;
+  width: 95%;
   height: 40px;
+  font-size: 0.85rem;
   margin-left: 10px;
   margin-right: 10px;
+  margin-bottom: 25px;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
 
-  a{
-    color: #007185
+  a {
+    color: #007185;
   }
- }
+}
+
+/** Shop Section **/
+
+.shop-section1 {
+  background-color: rgb(180, 201, 199);
+  justify-content: space-around;
+  display: flex;
+
+  .box {
+    width: 23%;
+    background-color: #cccccc;
+    border: 2px solid black;
+    height: 400px;
+    margin-bottom: 25px;
+    padding: 20px 0px 15px;
+  }
+
+  .box-img1 {
+    background-image: url(box1_image.jpg);
+    height: 315px;
+  }
+  .box-img2 {
+    background-image: url(box2_image.jpg);
+    height: 315px;
+  }
+  .box-img3 {
+    background-image: url(box3_image.jpg);
+    height: 315px;
+  }
+  .box-img4 {
+    background-image: url(box4_image.jpg);
+    height: 315px;
+  }
+}
+
+.shop-section2 {
+  background-color: rgb(180, 201, 199);
+  justify-content: space-around;
+  display: flex;
+
+  .box {
+    width: 23%;
+    background-color: #cccccc;
+    border: 2px solid black;
+    height: 400px;
+    margin-bottom: 25px;
+  }
+
+  .box-img5 {
+    background-image: url(box5_image.jpg);
+    height: 315px;
+  }
+  .box-img6 {
+    background-image: url(box6_image.jpg);
+    height: 315px;
+  }
+  .box-img7 {
+    background-image: url(box7_image.jpg);
+    height: 315px;
+  }
+  .box-img8 {
+    background-image: url(box8_image.jpg);
+    height: 315px;
+}
+}
