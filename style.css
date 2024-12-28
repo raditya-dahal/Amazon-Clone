@@ -177,7 +177,74 @@ span {
   }
 }
 
-/** Shop Section **/
+.shop-section1{
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #cccccc;
+  
+  .box{
+    /* border: 2px solid black; */
+    height: 300px;
+    width: 23%;
+    background-color: white ;
+    padding: 20px 0px 15px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+
+  }
+  .box-content{
+    margin-left: 10px;
+    margin-right: 10px;
+
+  }
+
+  a{
+    text-decoration: none;
+    color: Black;
+
+  }
+
+
+  .box-img1{
+    background-image: url("box1_image.jpg");
+  }
+  .box-img2{
+    background-image: url("box2_image.jpg");
+  }
+  .box-img3{
+    background-image: url("box3_image.jpg");
+  }
+  .box-img4{
+    background-image: url("box4_image.jpg");
+  }
+  .box-img5{
+    background-image: url("box5_image.jpg");
+  }
+  .box-img6{
+    background-image: url("box6_image.jpg");
+  }
+  .box-img7{
+    background-image: url("box7_image.jpg");
+  }
+  .box-img8{
+    background-image: url("box8_image.jpg");
+  }
+
+  .box-img{
+    height: 240px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+  }
+
+}
+
+
+/* 
+* Shop Section *
 
 .shop-section1 {
   background-color: rgb(180, 201, 199);
@@ -210,4 +277,19 @@ span {
     background-image: url(box4_image.jpg);
     height: 315px;
   }
+} */
+
+
+/** Footer Style**/
+.footer{
+  background-color: #cccccc;
+}
+.foot-backtotop{
+  margin-top: 15px;
+  background-color: rgba(50,64,101,255);
+  height: 50px;
+  margin-bottom: 15px;
+  text-align: center;
+  justify-content: center;
+  position: relative;
 }
